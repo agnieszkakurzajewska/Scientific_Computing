@@ -5,8 +5,8 @@
 
     function doubleMin()
 
-    d = Float64(1.0) #zaczynamy szukanie liczby od jedynki
-        e =Float64(1.0)
+    e =Float64(1.0)
+    d = Float64(1.0)
 
     while ( Float64( d * Float64(1/d) ) == Float64(1) )
 
@@ -16,7 +16,7 @@
     end
 
     if d == e
-        println("Najmniejsza wyznaczona liczba: ", d)
+        println("Min: ", d)
     end
 end
 

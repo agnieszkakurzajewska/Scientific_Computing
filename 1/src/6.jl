@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-# Zad. 6.
+# Task 6
 
 function f()
   

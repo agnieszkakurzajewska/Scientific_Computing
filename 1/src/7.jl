@@ -1,5 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
+
+# Task 7
 
 function functionf(x) #wzór funkcji
   return Float64(Float64(sin(x)) + Float64(cos(3 * (x))))

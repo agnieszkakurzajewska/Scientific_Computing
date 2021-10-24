@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-#Zadanie 2
+# Task 2
 
 function halfKahan() 
 

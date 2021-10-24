@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-# Zad. 2b.
+# Task 1b
 
 # a)
 function etaHalf()

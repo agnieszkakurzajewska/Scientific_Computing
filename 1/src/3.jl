@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-# Zad. 3
+# Task 3
 
 function lookAtBytes(interval, start)
     

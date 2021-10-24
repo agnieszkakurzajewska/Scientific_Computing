@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-# Zad. 1c.
+# Task 1c
 
 # a)
 function halfMax()

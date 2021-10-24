@@ -1,7 +1,7 @@
 # Agnieszka Kurzajewska
-# nr indeksu: 244994
+# 244994
 
-# Zad. 1a.
+# Task 1a
 
 # a)
 function machepsHalf()

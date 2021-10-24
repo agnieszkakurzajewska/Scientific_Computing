@@ -10,11 +10,11 @@ function etaHalf()
 
     while(Float16(h) > Float16(0) && Float16(h / 2) != Float16(0))
 
-  h = Float16(h / 2)
+        h = Float16(h / 2)
 
   end
 
-  println("Float16: obliczona eta: ", h, ", eta podana przez funkcję nextfloat(): ", nextfloat(Float16(0.0)))
+  println("Float16: Calculated eta: ", h, ", eta given by nextfloat() function: ", nextfloat(Float16(0.0)))
 
 end
 
@@ -29,7 +29,7 @@ function etaSingle()
 
   end
 
-  println("Float32: obliczona eta: ", s, ", eta podana przez funkcję nextfloat(): ", nextfloat(Float32(0.0)))
+  println("Float32: Calculated eta: ", s, ", eta given by nextfloat() function: ", nextfloat(Float32(0.0)))
 
 end
 
@@ -44,7 +44,7 @@ function etaDouble()
 
   end
 
-  println("Float64: obliczona eta: ", d, ", eta podana przez funkcję nextfloat(): ", nextfloat(Float64(0.0)))
+  println("Float64: Calculated eta: ", d, ", eta given by nextfloat() function: ", nextfloat(Float64(0.0)))
 
 end
 

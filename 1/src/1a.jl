@@ -6,7 +6,7 @@
 # a)
 function machepsHalf()
 
-  h = Float16(1) #zmienna początkowo ustawiona na 1, a następnie iteracyjnie zmniejszana do wartości machepsu
+  h = Float16(1) #variable initially set to 1 and then iteratively reduced to machepsu value
 
   while(Float16(1 + h) > Float16(1) && Float16(1 + h / 2) != Float16(1))
 
@@ -14,7 +14,7 @@ function machepsHalf()
 
   end
 
-  println("Float16: obliczony macheps: ", h, ", macheps podany przez funkcję eps(): ", eps(Float16))
+  println("Float16: Calculated macheps: ", h, ", macheps given by eps() function: ", eps(Float16))
 
 end
 
@@ -29,7 +29,7 @@ function machepsSingle()
 
   end
 
-  println("Float32: obliczony macheps: ", s, ", macheps podany przez funkcję eps(): ", eps(Float32))
+  println("Float32: Calculated macheps: ", s, ", macheps given by eps() function(): ", eps(Float32))
 
 end
 
@@ -44,7 +44,7 @@ function machepsDouble()
 
   end
 
-  println("Float64: obliczony macheps: ", d, ", macheps podany przez funkcję eps(): ", eps(Float64))
+  println("Float64: Calculatedliczony macheps: ", d, ", macheps given by eps() function(): ", eps(Float64))
 
 end
 

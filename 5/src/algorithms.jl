@@ -135,7 +135,7 @@ function calculateLUWithoutChoice(A::SparseMatrixCSC{Float64, Int64}, n::Int64, 
 	return x;
 end
 
-function calculateLUWithoutChoiceWithChoice(A::SparseMatrixCSC{Float64, Int64}, n::Int64, l::Int64, b::Vector{Float64})
+function calculateLUWithChoice(A::SparseMatrixCSC{Float64, Int64}, n::Int64, l::Int64, b::Vector{Float64})
 
 	p = collect(1:n)
 	for k in 1:n - 1
@@ -178,6 +178,6 @@ function saveResultToFile(filePath::String, x::Vector{Float64}, n::Int64)
 end
 
 export readData, readVectorfromRight, saveResultToFile,
-calculateGaussWithoutChoice, calculateGaussWithChoice, calculateLUWithoutChoice, calculateLUWithoutChoiceWithChoice
+calculateGaussWithoutChoice, calculateGaussWithChoice, calculateLUWithoutChoice, calculateLUWithChoice
 
 end
